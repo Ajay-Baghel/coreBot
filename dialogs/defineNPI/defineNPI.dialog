@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "iQfKXa",
+    "name": "defineNPI",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "XYaI4Z"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "PARw39"
+          },
+          "activity": "${SendActivity_PARw39()}"
+        }
+      ]
+    }
+  ],
+  "generator": "defineNPI.lg",
+  "recognizer": "defineNPI.lu.qna",
+  "id": "defineNPI"
+}

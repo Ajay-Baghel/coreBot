@@ -1,0 +1,44 @@
+[import](common.lg)
+
+# SendActivity_ErrorOccured()
+[Activity
+    Text = ${SendActivity_ErrorOccured_text()}
+]
+
+# SendActivity_ErrorOccured_text()
+- Oops, looks like I'm stuck. Can you try to ask me in a different way?
+- Looks like I'm all mixed up. Let's try asking again, but maybe rephrase your request?
+- Sorry, it looks like something went wrong. Can you please try again?
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that
+- I'm not sure I understand. Can you please try again?
+- Hmm, I don't understand. Can you try to ask me in a different way. 
+- I didn't get that. Would you mind rephrasing and try it again.
+
+# SendActivity_GDwF6D()
+[Activity
+    Text = ${SendActivity_GDwF6D_text()}
+]
+
+# SendActivity_GDwF6D_text()
+- Confidence score: ${#defination.score}
+# SendActivity_REV54R()
+[Activity
+    Text = ${SendActivity_REV54R_text()}
+]
+
+# SendActivity_REV54R_text()
+- entity: ${dialog.topic}
+# TextInput_Prompt_2YM4Yi()
+[Activity
+    Text = ${TextInput_Prompt_2YM4Yi_text()}
+]
+
+# TextInput_Prompt_2YM4Yi_text()
+- Please enter your policy number.

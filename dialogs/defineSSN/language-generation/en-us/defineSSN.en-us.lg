@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_qkp3pl()
+[Activity
+    Text = ${SendActivity_qkp3pl_text()}
+]
+
+# SendActivity_qkp3pl_text()
+- SSN refers to a numerical identifier assigned to U.S. citizens and other residents to track income and determine benefits.

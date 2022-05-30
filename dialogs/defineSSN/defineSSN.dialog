@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "CQouqI",
+    "name": "defineSSN",
+    "comment": "defination of SSN"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "vqcFuU"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "qkp3pl"
+          },
+          "activity": "${SendActivity_qkp3pl()}"
+        }
+      ]
+    }
+  ],
+  "generator": "defineSSN.lg",
+  "recognizer": "defineSSN.lu.qna",
+  "id": "defineSSN"
+}

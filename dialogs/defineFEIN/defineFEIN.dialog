@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "FSLjLI",
+    "name": "defineFEIN",
+    "comment": "defination for FEIN\n"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "UjosqH"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "2ECY00"
+          },
+          "activity": "${SendActivity_2ECY00()}"
+        }
+      ]
+    }
+  ],
+  "generator": "defineFEIN.lg",
+  "recognizer": "defineFEIN.lu.qna",
+  "id": "defineFEIN"
+}

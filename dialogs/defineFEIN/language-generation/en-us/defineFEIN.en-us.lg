@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_2ECY00()
+[Activity
+    Text = ${SendActivity_2ECY00_text()}
+]
+
+# SendActivity_2ECY00_text()
+- FEIN stands for Federal Employer Identification Number. It’s also known as an EIN, an Employer Identification Number, or a business tax ID. The IRS issues FEINs to businesses for tax purposes. An FEIN is different from an employer state ID number. 

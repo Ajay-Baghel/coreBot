@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_PARw39()
+[Activity
+    Text = ${SendActivity_PARw39_text()}
+]
+
+# SendActivity_PARw39_text()
+- A National Provider Identifier (NPI) is a unique 10-digit identification number issued to health care providers in the United States by the Centers for Medicare and Medicaid Services (CMS).

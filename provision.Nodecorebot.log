@@ -1,0 +1,19 @@
+{
+  "profileName": "Nodecorebot",
+  "jobId": "64f0611d-41dd-45a2-a057-7165a1c27e8a",
+  "projectId": "91767.87669274195",
+  "time": "2022-05-28T05:59:07.812Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: NodeBot at westus",
+    "> Creating App Registration ...",
+    "App create failed, retrying ...",
+    "App create failed, retrying ...",
+    "App create failed, retrying ...",
+    "App create failed, retrying ...",
+    "App create failed after 3 retries. Error: Request failed with status code 401",
+    "{\"name\":\"CREATE_APP_REGISTRATION\",\"message\":\"App create failed! Please file an issue on Github.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Users\\\\bajay\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276418:25)\\n    at createCustomizeError (C:\\\\Users\\\\bajay\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276423:10)\\n    at BotProjectProvision.createApp (C:\\\\Users\\\\bajay\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:277931:17)\"}",
+    "{\"name\":\"CREATE_APP_REGISTRATION\",\"message\":\"App create failed! Please file an issue on Github.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Users\\\\bajay\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276418:25)\\n    at createCustomizeError (C:\\\\Users\\\\bajay\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:276423:10)\\n    at BotProjectProvision.createApp (C:\\\\Users\\\\bajay\\\\AppData\\\\Local\\\\Programs\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:277931:17)\"}. See provision.Nodecorebot.log in your bot folder"
+  ]
+}
